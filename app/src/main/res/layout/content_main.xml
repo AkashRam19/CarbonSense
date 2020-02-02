@@ -60,13 +60,21 @@
                 android:id="@+id/cardboard_button"
                 android:layout_height="80sp"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Cardboard" />
+                android:text="Cardboard"
+                android:onClick="showMessageCardboard"/>
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="74dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/cardboard_icon" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
 
         </TableRow>
 
@@ -82,7 +90,8 @@
                 android:id="@+id/glass_button"
                 android:layout_height="80sp"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Glass" />
+                android:text="Glass"
+                android:onClick="showMessageGlass"/>
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -90,21 +99,29 @@
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/glass_icon" />
 
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
         </TableRow>
 
         <TableRow
-            android:id="@+id/plastic_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:baselineAligned="false">
+            android:baselineAligned="true">
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <Button
+                android:id="@+id/plastic_button"
                 android:layout_height="80sp"
                 android:backgroundTint="@color/colorAccent"
+                android:onClick="showPopup2"
                 android:text="Plastic" />
 
             <ImageView
@@ -112,6 +129,13 @@
                 android:layout_width="41dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/plastic_icon" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
 
         </TableRow>
 
@@ -128,13 +152,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80sp"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Paper" />
+                android:text="Paper"
+                android:onClick="showPopup"/>
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="56dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/paper_icon" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow
@@ -150,13 +182,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80sp"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Cans" />
+                android:text="Cans"
+                android:onClick="showMessageCan"/>
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/aluminum_icon" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
         </TableRow>
 
         <TableRow
