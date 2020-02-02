@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Carbon Sense</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="app_title">BIN\n10</string>
+</resources>
